@@ -9,8 +9,8 @@
 ## To run the tests, please use following command:
 `npm install && npm run test`
 ---
-**after tests are executed, it will turn off all nodemon processes!!!**
----
+*after tests are executed, it will turn off all nodemon processes!!!*
+
 It will automatically pull apollo app and start it in the background.
 After tests are executed, results might be seen in HTML test report: `mochawesome-report/mochawesome.html`
 
