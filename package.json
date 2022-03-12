@@ -1,0 +1,31 @@
+{
+  "name": "rimac-test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "sh apollo-start.sh && env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha --reporter mochawesome -r ts-node/register 'tests/**/*.ts' && sh apollo-stop.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "@types/mochawesome": "^6.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "chai": "^4.3.6",
+    "eslint": "^8.10.0",
+    "mocha": "^9.2.2",
+    "mochawesome": "^7.1.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "graphql": "^16.3.0",
+    "graphql-request": "^4.1.0",
+    "pm2": "^5.2.0"
+  }
+}

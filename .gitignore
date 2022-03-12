@@ -1,0 +1,4 @@
+node_modules/
+apollo/
+.vscode/
+.DS_Store
