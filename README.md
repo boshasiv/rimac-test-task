@@ -17,4 +17,5 @@ After tests are executed, results might be seen in HTML test report: `mochawesom
 ### Personal notes
 In 9 out of 10 cases I won't do a environment set up in test logic for black-box e2e testing as it is here. But since it was the part of the task I did :)
 All the checks are made outside of the test logic still - in the shell scripts, so it is slightly closer to the real world when those stages are done on CI/CD level.
+All the development done on macos, so it should work under all unix-like systems. Haven't tested in on Windows.
 
